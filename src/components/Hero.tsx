@@ -3,27 +3,27 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="min-h-screen flex items-center bg-white relative overflow-hidden pt-20">
+    <section id="inicio" className="min-h-screen flex items-center bg-background relative overflow-hidden pt-20">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-blue-500/10"></div>
-        <div className="absolute bottom-20 right-10 w-48 h-48 rounded-full bg-blue-500/5"></div>
-        <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full bg-blue-500/8"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-accent/20"></div>
+        <div className="absolute bottom-20 right-10 w-48 h-48 rounded-full bg-accent/10"></div>
+        <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full bg-accent/15"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="text-gray-900">
+          <div className="text-foreground">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              <span className="text-blue-600">Contabilidade</span>
+              <span className="text-accent">Contabilidade</span>
               <br />
               Empresarial é na
               <br />
-              <span className="text-blue-600">BelContal!</span>
+              <span className="text-accent">BelContal!</span>
             </h1>
             
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Empresa familiar especializada em contabilidade empresarial desde 2015. 
               Oferecemos serviços personalizados e humanizados para sua empresa crescer com segurança.
             </p>
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button 
                 size="lg"
-                className="bg-blue-600 text-white hover:bg-blue-700 shadow-lg group"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-gray group"
                 onClick={() => window.open('https://wa.me/5583988329477', '_blank')}
               >
                 Solicitar Orçamento
@@ -41,7 +41,7 @@ const Hero = () => {
               <Button 
                 size="lg"
                 variant="outline"
-                className="border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-700"
+                className="border-accent/60 text-accent hover:bg-accent/10 hover:text-accent hover:border-accent"
                 onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Nossos Serviços
@@ -51,20 +51,20 @@ const Hero = () => {
             {/* Benefits */}
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">
-                <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-600">Atendimento Personalizado</span>
+                <CheckCircle className="h-5 w-5 text-accent" />
+                <span className="text-muted-foreground">Atendimento Personalizado</span>
               </div>
               <div className="flex items-center space-x-3">
-                <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-600">Empresa Familiar</span>
+                <CheckCircle className="h-5 w-5 text-accent" />
+                <span className="text-muted-foreground">Empresa Familiar</span>
               </div>
               <div className="flex items-center space-x-3">
-                <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-600">9 Anos de Experiência</span>
+                <CheckCircle className="h-5 w-5 text-accent" />
+                <span className="text-muted-foreground">9 Anos de Experiência</span>
               </div>
               <div className="flex items-center space-x-3">
-                <CheckCircle className="h-5 w-5 text-blue-600" />
-                <span className="text-gray-600">Consultoria Especializada</span>
+                <CheckCircle className="h-5 w-5 text-accent" />
+                <span className="text-muted-foreground">Consultoria Especializada</span>
               </div>
             </div>
           </div>
@@ -84,8 +84,8 @@ const Hero = () => {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-blue-600/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-blue-600/50 rounded-full mt-2 animate-pulse"></div>
+        <div className="w-6 h-10 border-2 border-accent/50 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-accent/50 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
