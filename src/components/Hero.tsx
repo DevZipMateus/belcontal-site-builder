@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <section id="inicio" className="min-h-screen flex items-center bg-white relative overflow-hidden pt-20">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-blue-500/20"></div>
-        <div className="absolute bottom-20 right-10 w-48 h-48 rounded-full bg-blue-500/10"></div>
-        <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full bg-blue-500/15"></div>
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-blue-500/10"></div>
+        <div className="absolute bottom-20 right-10 w-48 h-48 rounded-full bg-blue-500/5"></div>
+        <div className="absolute top-1/2 left-1/3 w-24 h-24 rounded-full bg-blue-500/8"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
