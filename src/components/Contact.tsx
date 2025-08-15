@@ -94,7 +94,7 @@ const Contact = () => {
             <div className="mt-8">
               <Button 
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-orange w-full sm:w-auto"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-gray w-full sm:w-auto"
                 onClick={() => window.open('https://wa.me/5583988329477', '_blank')}
               >
                 Iniciar Conversa no WhatsApp

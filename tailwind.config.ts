@@ -65,11 +65,11 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-orange': 'var(--gradient-orange)'
+				'gradient-gray': 'var(--gradient-gray)'
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',
-				'orange': 'var(--shadow-orange)'
+				'gray': 'var(--shadow-gray)'
 			},
 			transitionProperty: {
 				'smooth': 'var(--transition-smooth)'

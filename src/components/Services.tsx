@@ -115,7 +115,7 @@ const Services = () => {
         </div>
 
         {/* CTA */}
-        <div className="bg-gradient-orange rounded-2xl p-8 text-center text-white">
+        <div className="bg-gradient-gray rounded-2xl p-8 text-center text-white">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
             Precisa de Ajuda com sua Contabilidade?
           </h3>

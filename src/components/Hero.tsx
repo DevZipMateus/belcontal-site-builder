@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button 
                 size="lg"
-                className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-orange group"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-gray group"
                 onClick={() => window.open('https://wa.me/5583988329477', '_blank')}
               >
                 Solicitar Orçamento

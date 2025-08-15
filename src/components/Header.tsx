@@ -71,7 +71,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Button 
               variant="default"
-              className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-orange"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-gray"
               onClick={() => window.open('https://wa.me/5583988329477', '_blank')}
             >
               Fale Conosco
@@ -119,7 +119,7 @@ const Header = () => {
               <div className="px-4 py-2">
                 <Button 
                   variant="default"
-                  className="w-full bg-accent text-accent-foreground hover:bg-accent/90 shadow-orange"
+                  className="w-full bg-accent text-accent-foreground hover:bg-accent/90 shadow-gray"
                   onClick={() => window.open('https://wa.me/5583988329477', '_blank')}
                 >
                   Fale Conosco
