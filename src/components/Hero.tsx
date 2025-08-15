@@ -72,11 +72,10 @@ const Hero = () => {
           {/* Logo/Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="absolute inset-0 bg-accent/20 rounded-full blur-3xl scale-110"></div>
               <img 
                 src="/lovable-uploads/3e133b37-46ac-4a6f-a515-925e7e50a4c4.png" 
                 alt="BEL CONTAL CONTABILIDADE - Logotipo" 
-                className="relative z-10 h-64 w-auto filter drop-shadow-2xl"
+                className="h-64 w-auto"
               />
             </div>
           </div>
