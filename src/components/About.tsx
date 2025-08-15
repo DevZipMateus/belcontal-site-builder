@@ -56,16 +56,16 @@ const About = () => {
 
           {/* Image/Visual */}
           <div className="relative">
-            <div className="bg-gradient-orange rounded-2xl p-8 text-center text-white shadow-orange">
+            <div className="bg-accent/10 border border-accent/20 rounded-2xl p-8 text-center">
               <div className="mb-6">
                 <img 
                   src="/lovable-uploads/3e133b37-46ac-4a6f-a515-925e7e50a4c4.png" 
                   alt="BEL CONTAL CONTABILIDADE" 
-                  className="h-24 w-auto mx-auto filter brightness-0 invert"
+                  className="h-24 w-auto mx-auto"
                 />
               </div>
-              <h4 className="text-2xl font-bold mb-2">Nossa Missão</h4>
-              <p className="text-accent-foreground/90">
+              <h4 className="text-2xl font-bold mb-2 text-foreground">Nossa Missão</h4>
+              <p className="text-muted-foreground">
                 Proporcionar soluções contábeis de excelência com atendimento 
                 humanizado e personalizado para o crescimento sustentável das empresas.
               </p>

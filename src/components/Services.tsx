@@ -115,17 +115,16 @@ const Services = () => {
         </div>
 
         {/* CTA */}
-        <div className="bg-gradient-gray rounded-2xl p-8 text-center text-white">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">
+        <div className="bg-accent/10 border border-accent/20 rounded-2xl p-8 text-center">
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">
             Precisa de Ajuda com sua Contabilidade?
           </h3>
-          <p className="text-xl mb-6 text-accent-foreground/90">
+          <p className="text-xl mb-6 text-muted-foreground">
             Entre em contato conosco e receba um atendimento personalizado para sua empresa
           </p>
           <Button 
             size="lg"
-            variant="outline"
-            className="border-white/60 text-white hover:bg-white/10 hover:text-white hover:border-white group"
+            className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-gray group"
             onClick={() => window.open('https://wa.me/5583988329477', '_blank')}
           >
             Solicitar Consultoria

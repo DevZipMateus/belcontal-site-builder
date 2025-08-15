@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
+    <footer className="bg-muted/30 text-foreground py-12 border-t border-border">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
@@ -13,25 +13,25 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/3e133b37-46ac-4a6f-a515-925e7e50a4c4.png" 
                 alt="BEL CONTAL CONTABILIDADE" 
-                className="h-12 w-auto filter brightness-0 invert"
+                className="h-12 w-auto"
               />
             </div>
-            <p className="text-primary-foreground/80 mb-4 leading-relaxed">
+            <p className="text-muted-foreground mb-4 leading-relaxed">
               Empresa familiar especializada em contabilidade empresarial, 
               oferecendo serviços personalizados desde 2015.
             </p>
-            <p className="text-sm text-primary-foreground/60">
+            <p className="text-sm text-muted-foreground">
               CNPJ: 009.142.724-03
             </p>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4 text-foreground">Contato</h3>
             <div className="space-y-3">
               <a 
                 href="https://wa.me/5583988329477" 
-                className="flex items-center space-x-2 text-primary-foreground/80 hover:text-accent transition-colors"
+                className="flex items-center space-x-2 text-muted-foreground hover:text-accent transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,13 +41,13 @@ const Footer = () => {
               
               <a 
                 href="mailto:belcontal@gmail.com" 
-                className="flex items-center space-x-2 text-primary-foreground/80 hover:text-accent transition-colors"
+                className="flex items-center space-x-2 text-muted-foreground hover:text-accent transition-colors"
               >
                 <Mail className="h-4 w-4" />
                 <span>belcontal@gmail.com</span>
               </a>
               
-              <div className="flex items-start space-x-2 text-primary-foreground/80">
+              <div className="flex items-start space-x-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5" />
                 <span className="text-sm">
                   Rua Rodrigues de Farias, 160<br />
@@ -57,7 +57,7 @@ const Footer = () => {
               
               <a 
                 href="https://instagram.com/belcontal" 
-                className="flex items-center space-x-2 text-primary-foreground/80 hover:text-accent transition-colors"
+                className="flex items-center space-x-2 text-muted-foreground hover:text-accent transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -69,8 +69,8 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Principais Serviços</h3>
-            <ul className="space-y-2 text-primary-foreground/80">
+            <h3 className="text-lg font-semibold mb-4 text-foreground">Principais Serviços</h3>
+            <ul className="space-y-2 text-muted-foreground">
               <li>• Abertura de Empresas</li>
               <li>• Folha de Pagamento</li>
               <li>• Planejamento Tributário</li>
@@ -82,12 +82,12 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-primary-foreground/20 pt-8 mt-8">
+        <div className="border-t border-border pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-primary-foreground/60 text-sm">
+            <p className="text-muted-foreground text-sm">
               © {currentYear} BEL CONTAL CONTABILIDADE. Todos os direitos reservados.
             </p>
-            <p className="text-primary-foreground/60 text-sm mt-2 md:mt-0">
+            <p className="text-muted-foreground text-sm mt-2 md:mt-0">
               Contabilidade empresarial é na BelContal!
             </p>
           </div>

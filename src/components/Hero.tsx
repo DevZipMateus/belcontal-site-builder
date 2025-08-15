@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="min-h-screen flex items-center bg-gradient-hero relative overflow-hidden">
+    <section id="inicio" className="min-h-screen flex items-center bg-background relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-accent/20"></div>
@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="text-white">
+          <div className="text-foreground">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               <span className="text-accent">Contabilidade</span>
               <br />
@@ -23,7 +23,7 @@ const Hero = () => {
               <span className="text-accent">BelContal!</span>
             </h1>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Empresa familiar especializada em contabilidade empresarial desde 2015. 
               Oferecemos serviços personalizados e humanizados para sua empresa crescer com segurança.
             </p>
@@ -41,7 +41,7 @@ const Hero = () => {
               <Button 
                 size="lg"
                 variant="outline"
-                className="border-white/60 text-white hover:bg-white/10 hover:text-white hover:border-white"
+                className="border-accent/60 text-accent hover:bg-accent/10 hover:text-accent hover:border-accent"
                 onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Nossos Serviços
@@ -52,19 +52,19 @@ const Hero = () => {
             <div className="grid sm:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">
                 <CheckCircle className="h-5 w-5 text-accent" />
-                <span className="text-gray-300">Atendimento Personalizado</span>
+                <span className="text-muted-foreground">Atendimento Personalizado</span>
               </div>
               <div className="flex items-center space-x-3">
                 <CheckCircle className="h-5 w-5 text-accent" />
-                <span className="text-gray-300">Empresa Familiar</span>
+                <span className="text-muted-foreground">Empresa Familiar</span>
               </div>
               <div className="flex items-center space-x-3">
                 <CheckCircle className="h-5 w-5 text-accent" />
-                <span className="text-gray-300">9 Anos de Experiência</span>
+                <span className="text-muted-foreground">9 Anos de Experiência</span>
               </div>
               <div className="flex items-center space-x-3">
                 <CheckCircle className="h-5 w-5 text-accent" />
-                <span className="text-gray-300">Consultoria Especializada</span>
+                <span className="text-muted-foreground">Consultoria Especializada</span>
               </div>
             </div>
           </div>
@@ -85,8 +85,8 @@ const Hero = () => {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse"></div>
+        <div className="w-6 h-10 border-2 border-accent/50 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-accent/50 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
     </section>
